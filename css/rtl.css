@@ -1,0 +1,162 @@
+body,
+ p {
+  font-family: 'Cairo', sans-serif !important;
+} 
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6, a, li {
+  font-family: 'Cairo', sans-serif !important;
+  /* letter-spacing: 0 !important; */
+}
+ .button{
+  font-family: 'Cairo', sans-serif !important;
+}
+
+.right {
+    text-align: left !important;
+}
+.grid [class*=col-]{
+    float: right;
+}
+.panel .sections .menu li a {
+    letter-spacing: 0 !important;
+}
+
+.left {
+    text-align: right !important;
+}
+
+.margin-left-5 {
+    margin-right: 50px !important;
+    margin-left: 0 !important;
+}
+
+.button.actionButton .material-icons {
+    left: 0 !important;
+}
+ 
+.side { 
+    right: 100px;
+    left: unset;
+}
+
+/* ////////////////// */
+    /* home page */
+/* ///////////////// */
+@media screen and (min-width: 1023px){
+    .project .images { 
+    right: unset;
+    left: 0px; 
+}
+}
+.header.panel {
+    left: unset;
+    border-left: 1px solid #dde0e4;
+    border-right: 0;
+}
+.project .images p {
+    left: unset;
+    right: -155px;
+} 
+.project .images p:after {
+    top: 50%;
+    left: -75%;
+}  
+.project .section-text p.small{
+  margin-right: 10rem;
+  margin-left: unset;
+}
+.project .section-text p.small:before {
+    right: -75%;
+    left: unset;
+} 
+
+
+.sidebar.visible {
+    right: 0px;
+    left:unset;
+    direction: rtl;
+}
+@media screen and (min-width: 1023px){
+  .sidebar.visible {
+      transform: translateX(-100px) !important;
+  } 
+  .header.panel .sections .center {
+      left: unset;
+      right: 30px;
+  } 
+  .header.panel .sections .right {
+      right: 40px;
+      left: unset;
+  }
+} 
+@media screen and (min-width: 768px){
+  .services .letter-content.present .letter:before {
+      left: 116px !important;
+  } 
+}
+
+/* .navigation ul {
+    transform: rotate(90deg);
+    transform-origin: center right;
+}  */
+@media screen and (min-width: 1023px) {
+    .wrapper {
+        margin-right: 15.8rem;
+        margin-left: unset !important;
+    } 
+}
+.line-before:before {
+    left: unset !important;
+    right: -55px !important;
+} 
+/* ///////////////// */ 
+/* services page  */
+/* //////////////// */
+.services .align-letter {
+    right: 47%;
+    left: unset;
+    transform: translateX(43%) translateY(43%);
+    -webkit-transform: translateX(43%);
+    top: 48%;
+    /* letter-spacing: 0; */
+}
+.services .letter ,.services .letter-mask {
+    right: 0;
+    left: unset;
+}
+ .letter .align-letter[data-letter="present"]{
+     right: 40%; 
+ }
+/* ///////////////// */
+/* about page */
+/* //////////////// */
+.about .box { 
+    right: 105px;
+    left: unset  !important;
+}
+.about .image-content:nth-of-type(2n) {
+    right: 50px;
+    left: unset;
+}
+.about .image-content:nth-of-type(2n+1) {
+    left: unset;
+    right:155px
+}  
+.line-before.margin-left-6{
+  margin-left: unset !important;
+  margin-right: 6rem
+}
+.letter-content.present{
+    font-family: 'Cairo', sans-serif;
+} 
+.project .background { 
+    background-position-x: left !important;
+}
+.navigation ul { 
+flex-direction: row; 
+}
